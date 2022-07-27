@@ -1,16 +1,14 @@
 <script type="text/javascript">
 	export let icon 
 	export let navText
-	let hovering = false
 	
-	const handleHover = () =>{
-		hovering = true
-	}
+	
+	
 	
 
 </script>
 
-<main on:mouseover={handleHover}>
+<main >
 	<span>
 	<a href={"#"}> <i class={icon}></i> {navText} </a></span>
 </main>
@@ -18,7 +16,7 @@
 	main{
 		display:flex;
 		align-items:center;
-		width: 180px;
+		
 		padding-left: 20px; 
 		transition: var(--transition);
 
@@ -43,6 +41,7 @@
 	 }
 	 a:hover{
 	 	color: white;
+	 	text-decoration:none;
 	 }
 	 
 	 

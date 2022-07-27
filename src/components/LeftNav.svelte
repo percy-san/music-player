@@ -24,9 +24,11 @@
 		<NavItem icon={"fa-regular fa-heart"} navText={"Favorite Songs"}/>
 		
 	</div>
-	<h3>Playlist</h3>
+	<h3 class="playlist-heading">Playlist</h3>
 	<div class="playlist">
 		<PlaylistItems />
+		<PlaylistItems />
+
 	</div>
 
 </main>
@@ -41,7 +43,7 @@
 		padding-left:20px;
 		color: white;
 		font-size:18px;
-		margin-bottom: 5px;
+		margin-bottom:5px;
 		font-weight: 500px;
 		letter-spacing: 2px;
 
@@ -60,13 +62,17 @@
 
 	.navigation, .library{
 		line-height: 3rem;
-		margin-top: -10px;
+		margin-top: 15px;
 	} 
 
 	.playlist{
-		height:100px;
+		margin-top:-3px;
+		height:60px;
 		overflow-y:auto;
 		
+	}
+	.playlist-heading{
+		margin-top: 10px;
 	}
 
 

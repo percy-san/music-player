@@ -1,18 +1,14 @@
 <script type="text/javascript">
+	import Top from './top.svelte'
 	
 </script>
-<main>
-	<h1>Main Area</h1>
-	
-</main>
-	
-
-
+<div>
+	<Top/>
+</div>
 <style type="text/css">
-	main{
+	div{
 		background-color: var(--black);
-		height: 100%;
-		
+		height: 90vh;
 	}
 	
 </style>

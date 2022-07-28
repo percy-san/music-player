@@ -7,42 +7,19 @@
 </script>
 
 <main>
-
-	<div class="top">
-		<div class="left-nav">
-			<LeftNav />
-		</div>
-		<div class="main-content">
-			<MainContent/>
-		</div>
-	</div>
-
-	<div class="bottom">
-		<div class="now-playing">
-			now playing
-		</div>
-	</div>
-
+	<LeftNav />
+	<MainContent/>
 </main>
 
 <style type="text/css">
 	main{
-		display:flex;
-		flex-direction: column;
-	}
-	.top{
-		display: flex;
-	}
-
-	.left-nav{
-		width: 20%;
-	}
-	.main-content{
-		width: 100%;
-		
+		display: grid;
+		grid-template-columns: 0.2fr 1fr;
+		grid-template-rows: 1fr;
+		height: 100vh;
+	}	
 
 
-	}
 
 	
 

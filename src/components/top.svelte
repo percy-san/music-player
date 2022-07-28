@@ -11,7 +11,7 @@
 			<span class="uk-badge">3</span>
 		</span>
 		<div class="avater">
-			<div class="img">
+			<div>
 				<img src="../images/user.jpg" alt="user-image">
 			</div>
 		</div>
@@ -27,7 +27,7 @@
 		align-items: center;
 		justify-content: space-between;
 		padding-right: 20px; 
-		padding-top: 10px;
+
 
 	}
 	.uk-search{

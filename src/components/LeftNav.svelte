@@ -27,7 +27,6 @@
 	<h3 class="playlist-heading">Playlist</h3>
 	<div class="playlist">
 		<PlaylistItems />
-		<PlaylistItems />
 
 	</div>
 
@@ -36,7 +35,8 @@
 <style type="text/css" lang="scss">
 	main{
 		background-color: var(--black);
-		height:100%;
+		height:100vh;
+
 	}
 
 	h3{
